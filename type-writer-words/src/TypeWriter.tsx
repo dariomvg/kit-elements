@@ -8,9 +8,9 @@ export default function TypeWriter({
   cursor = "default",
   typingSpeed = 100,
   deletingSpeed = 100,
-  wordPause = 2000, // pausa para empezar a eliminar
-  deletePause = 2000, // pausa para empezar a escribir 
-  color = "#fff"
+  wordPause = 2000, 
+  deletePause = 2000, 
+  color = "#000"
 }: TypeWriterProps): JSX.Element {
 
   const [displayedText, setDisplayedText] = useState("");
