@@ -37,7 +37,7 @@ Instala con npm:
 | deletingSpeed |  tiempo de eliminación | 100 number|
 | wordPause | tiempo de pausa para empezar a eliminar |2000 number|
 | deletePause | tiempo de pausa para empezar a escribir |2000 number|
-| color | color de texto |"#fff" string|
+| color | color de texto |"#000" string|
 
 
 ```js
