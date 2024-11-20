@@ -1,41 +1,63 @@
-# nombre de paquetes
+# Kit-elements
 
-kit-elements-...
+Kit-elements es un conjunto de paquetes disponibles NPM creado con react y typescript disponible para todos tus proyectos  
 
-# archivo de exportacion: import y export 
+[react] [typescript] [dariomvg]
+
+## Temas
+
+- Componentes UI  
+- Convertidor de distintos formatos de fechas y horario  
+- Efecto de maquina de escibir  
+- Animaciones con IntersectionObserver  
 
 
-carpeta src/index.tsx exportar componentes asi: ↓
+### Instalaciones
 
 
-import Component from "..."
-export { Component } 
+Paquete de animaciones:  
+[github eff-anim] | [npm eff-anim]  
+```js
+ npm install eff-anim 
+```
 
-# package json
+Paquete de fechas y horario:   
+[github format-dates] | [npm format-dates]
 
- "name": "components-fast", // nombre del paquete
-  "private": false,
-  "version": "0.0.4", // cambiar version con cada actualización
-  "type": "module",
-  "main": "./src/components/index.jsx", // aca ruta donde esta el archivo de exportacion
-  "scripts": {
-    "dev": "vite --port 3000", // cambiar ruta para pruebas del paquete
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
+```js
+ npm install format-dates 
+```
 
-  # Publicar en npm el paquete
+Paquete de componentesUI:  
+[github kit-components] | [github kit-components]
 
-- npm login 
+```js
+ npm install kit-components 
+```
 
-- npm publish --access public
+Paquete de type writer words:  
+[github type-writer-words] | [npm type-writer-words]
 
-probar en otro proyecto: 
+```js
+ npm install type-writer-words 
+```
 
-- npm install nombre-de-tu-paquete
 
+[react]: <https://es.react.dev/>
+[typescript]: <https://www.typescriptlang.org/>
+[dariomvg]: <https://github.com/dariomvg>
+ 
+[github eff-anim]: <https://github.com/dariomvg/kit-elements/tree/master/eff-anim>
+[github format-dates]: <https://github.com/dariomvg/kit-elements/tree/master/format-dates>
+[github kit-components]: <https://github.com/dariomvg/kit-elements/tree/master/kit-components>
+[github type-writer-words]: <https://github.com/dariomvg/kit-elements/tree/master/type-writer-words>
+
+[npm eff-anim]: <>
+[npm format-dates]: <>
+[npm kit-components]: <>
+[npm type-writer-words]: <>
+
+
+
+
+   
