@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+# type-writer-words from [Kit-elements]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+type-writer-words es un componente que simula el efecto de maquina de escribir 
 
-Currently, two official plugins are available:
+### Instalacion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
+Instala con npm: 
 
 ```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+ npm install type-writer-words
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Uso
+
+### Uso del componente TypeWriter 
+
 
 ```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+  import {TypeWriter} from "type-writer-words"
+  
+  function App () {
+  const arrWords = ["Coding", "with", "react", "and", "typescript"]
+  return (
+    <TypeWriter words={arrWords} />
+  )
+}
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+
+#### Props
+
+| Prop | Valor | Por defecto|
+| ------ | ------ |------|
+| words | array de strings |[] Array|
+| cursor | "default" y "line" |"default" string|
+| typingSpeed | tiempo de escritura|100 number|
+| deletingSpeed |  tiempo de eliminación | 100 number|
+| wordPause | tiempo de pausa para empezar a eliminar |2000 number|
+| deletePause | tiempo de pausa para empezar a escribir |2000 number|
+| color | color de texto |"#fff" string|
+
+
+```js
+  import {TypeWriter} from "type-writer-words"
+  
+  function App () {
+  const arrWords = ["Coding", "with", "react", "and", "typescript"]
+  return (
+    <TypeWriter words={arrWords} cursor={"line"} color={"#000"} typingSpeed={200} deletingSpeed={200} wordPause={3000} deletePause={3000} />
+  )
+}
+```
+
+# Probar
+
+Ejecuta y visita localhost
+
+```js
+  npm run dev
+```
+
+[Kit-elements]: <https://github.com/dariomvg/kit-elements>
