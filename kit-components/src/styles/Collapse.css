@@ -1,0 +1,58 @@
+.container {
+  display: inline-block;
+  padding: 0 10px;
+  user-select: none;
+}
+
+.sec-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  cursor: pointer;
+}
+.title {
+  font-size: 18px;
+  max-width: 90%;
+}
+
+.content {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s;
+  
+}
+
+.visible .content {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  transition: all 0.3s;
+}
+
+.dark {
+  background-color: #101010;
+  color: #ddd;
+  border-bottom: 1px solid #aaa;
+}
+
+.light {
+  background-color: #ddd;
+  color: #101010;
+  border-bottom: 1px solid #202020;
+
+}
+
+.icon-dark {
+  stroke: #fff;
+}
+
+.icon-light {
+  stroke: #000;
+
+}
+

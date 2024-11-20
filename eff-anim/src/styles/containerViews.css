@@ -1,0 +1,203 @@
+/* default effects */
+
+.eff-left {
+  transform: translate3d(100px, 0, 0);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.eff-right {
+  transform: translate3d(-100px, 0, 0);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-bottom {
+  transform: translate3d(0, 100px, 0);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-top {
+  transform: translate3d(0, -100px, 0);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+
+/* default active animations */
+
+
+.eff-left.animation {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.eff-right.animation {
+ opacity: 1;
+  transform: none;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-bottom.animation {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-top.animation {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+
+
+/* zoom effects */
+
+
+.eff-zoom {
+  transform: scale(0.6);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-left {
+  transform: translate3d(100px, 0, 0) scale(0.6);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-right {
+  transform: translate3d(-100px, 0, 0) scale(0.6);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-top {
+  transform: translate3d(0, -100px, 0) scale(0.6);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+
+.eff-z-bottom {
+  transform: translate3d(0, 100px, 0) scale(0.6);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* zoom active animations */
+
+
+.eff-zoom.animation {
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-left.animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-right.animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-top.animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-z-bottom.animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+
+/* flip effects */
+
+.eff-flip {
+  transform: perspective(2500px) rotateY(-100deg);
+  transition-property: transform;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-left {
+  transform: perspective(2500px) rotateY(-100deg) translateX(100px);
+  transition-property: transform;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-right {
+  transform: perspective(2500px) rotateY(100deg) translateX(-100px);
+  transition-property: transform;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-top {
+  transform: perspective(2500px) rotateX(-100deg) translateY(-100px);
+  transition-property: transform;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-bottom {
+  transform: perspective(2500px) rotateX(100deg) translateY(100px);
+  transition-property: transform;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* flip active animations */
+
+.eff-flip.animation {
+  transform: perspective(2500px) rotateY(0);
+  opacity: 1;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-left.animation {
+  transform: perspective(2500px) rotateY(0) translateX(0);
+  opacity: 1;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-right.animation {
+  transform: perspective(2500px) rotateY(0) translateX(0);
+  opacity: 1;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-top.animation {
+  transform: perspective(2500px) rotateX(0) translateY(0);
+  opacity: 1;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.eff-f-bottom.animation {
+  transform: perspective(2500px) rotateX(0) translateY(0);
+  opacity: 1;
+  transition: transform 0.5s, opacity 0.5s;
+}
