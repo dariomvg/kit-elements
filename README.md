@@ -58,6 +58,3 @@ Paquete de type writer words:
 [npm type-writer-words]: <>
 
 
-
-
-   
