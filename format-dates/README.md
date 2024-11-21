@@ -13,7 +13,7 @@ format-dates es un conjuntos de funciones dónde devuelven distintos formatos de
 Instala con npm: 
 
 ```js
- npm install format-dates 
+ npm install format-all-dates 
 ```
 
 ## Uso
