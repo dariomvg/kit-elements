@@ -3,7 +3,7 @@
   "private": false,
   "author": "Dariomvg",
   "description": "Conjunto de funciones para obtener la fecha",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -21,11 +21,6 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "rollup": "^4.27.3"
-  },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@rollup/plugin-commonjs": "^28.0.1",
@@ -39,6 +34,9 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.27.3",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.8.1",
