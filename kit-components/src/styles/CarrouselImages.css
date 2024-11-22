@@ -18,6 +18,7 @@
   background: transparent;
   transition: background 0.5s;
   cursor: pointer;
+  padding: 5px;
 }
 .btn:hover {
   background: #f0ffff71;

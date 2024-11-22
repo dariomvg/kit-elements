@@ -35,7 +35,7 @@ export const CarrouselImages = ({
   return (
     <div className="carrousel" style={{ width: width, height: height }}>
       <img
-        src={images[currentIndex]}
+        src={images[currentIndex].src}
         alt="image slide"
         loading="lazy"
         width="100%"

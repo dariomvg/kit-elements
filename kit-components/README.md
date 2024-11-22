@@ -7,7 +7,7 @@ kit-components es un catalogo de componentes de UI, funcionales y personalizable
 Instala con npm: 
 
 ```js
- npm install kit-components 
+ npm install kit-components-ui 
 ```
 
 #### Lista de componentes

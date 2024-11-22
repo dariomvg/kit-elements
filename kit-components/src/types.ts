@@ -7,9 +7,15 @@ export interface PropsCollapse {
     width?: string;
 }
 
+type StaticImageData = {
+    src: string;
+    width: number;
+    height: number;
+    blurDataURL?: string;
+};
 
 export interface PropsCarrousel {
-    images: string[];
+    images: StaticImageData[];
     auto?: boolean ;
     time?:number; 
     width?: string
