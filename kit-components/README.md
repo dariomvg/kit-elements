@@ -24,7 +24,7 @@ Instala con npm:
 CarrouselImages
 
 ```js
-import { CarrouselImages } from "kit-components";
+import { CarrouselImages } from "kit-components-ui";
 
 function App() {
   const arrImages = [img1, img2, img3, ...]
@@ -45,7 +45,7 @@ function App() {
 Collapse
 
 ```js
-import { Collapse } from "kit-components";
+import { Collapse } from "kit-components-ui";
 
 function App() {
   
@@ -67,7 +67,7 @@ function App() {
 Loader
 
 ```js
-import { Loader } from "kit-components";
+import { Loader } from "kit-components-ui";
 
 function App() {
   
@@ -80,7 +80,7 @@ function App() {
 Modal
 
 ```js
-import { Modal } from "kit-components";
+import { Modal } from "kit-components-ui";
 
 function App() {
   
@@ -102,7 +102,7 @@ function App() {
 Toggle
 
 ```js
-import { Toggle } from "kit-components";
+import { Toggle } from "kit-components-ui";
 
 function App() {
   const showMessage = () => {
