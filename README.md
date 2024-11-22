@@ -22,10 +22,10 @@ Paquete de animaciones:
 ```
 
 Paquete de fechas y horario:   
-[github format-dates] | [npm format-dates]
+[github format-all-dates] | [npm format-all-dates]
 
 ```js
- npm install format-dates 
+ npm install format-all-dates 
 ```
 
 Paquete de componentesUI:  
@@ -48,13 +48,13 @@ Paquete de type writer words:
 [dariomvg]: <https://github.com/dariomvg>
  
 [github eff-anim]: <https://github.com/dariomvg/kit-elements/tree/master/eff-anim>
-[github format-dates]: <https://github.com/dariomvg/kit-elements/tree/master/format-dates>
+[github format-all-dates]: <https://github.com/dariomvg/kit-elements/tree/master/format-dates>
 [github kit-components]: <https://github.com/dariomvg/kit-elements/tree/master/kit-components>
 [github type-writer-words]: <https://github.com/dariomvg/kit-elements/tree/master/type-writer-words>
 
-[npm eff-anim]: <>
-[npm format-dates]: <>
-[npm kit-components]: <>
-[npm type-writer-words]: <>
+[npm eff-anim]: <https://www.npmjs.com/package/eff-anim>
+[npm format-all-dates]: <https://www.npmjs.com/package/format-all-dates>
+[npm kit-components]: <https://www.npmjs.com/package/kit-components-ui>
+[npm type-writer-words]: <https://www.npmjs.com/package/type-writer-words>
 
 
