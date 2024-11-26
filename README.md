@@ -29,10 +29,10 @@ Paquete de fechas y horario:
 ```
 
 Paquete de componentesUI:  
-[github kit-components] | [github kit-components]
+[github kit-components] | [npm kit-components]
 
 ```js
- npm install kit-components 
+ npm install kit-components-ui
 ```
 
 Paquete de type writer words:  
