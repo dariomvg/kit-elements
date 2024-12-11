@@ -5,7 +5,7 @@ Kit-elements es un conjunto de paquetes disponibles NPM creado con react y types
 [react] [typescript] [dariomvg]
 
 
-<a href="#"><img alt="React" src="https://img.shields.io/badge/React-125cff"></a>
+<a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a>
 <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
 <a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
 <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white&color=ab12ff"></a>
