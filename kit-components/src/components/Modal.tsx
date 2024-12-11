@@ -14,7 +14,7 @@ export const Modal = ({ children, titleButton }: PropsModal): JSX.Element => {
       <button className="btn-modal" onClick={handleModal}>
         {titleButton}
       </button>
-      <section className={`container-modal ${active ? "active" : ""}`}>
+      <section data-testid="modal" className={`container-modal ${active ? "active" : ""}`}>
         <div className="modal">
           <button onClick={handleModal} className="close-modal">X</button>
           {children}
