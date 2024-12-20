@@ -2,7 +2,7 @@
 
 kit-components es un catalogo de componentes de UI, funcionales y personalizables
 
-![video demo](https://res.cloudinary.com/dijk5nuuk/image/upload/v1734718607/gratpezwiknve8oxx9e9.gif)
+![video](https://res.cloudinary.com/dijk5nuuk/image/upload/v1734722599/components.gif)
 
 ### Instalacion
 
