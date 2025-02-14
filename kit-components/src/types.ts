@@ -33,3 +33,17 @@ export interface PropsToggle {
     onClick: (event: React.MouseEvent<HTMLInputElement>) => void; 
 }
 
+type ExperienceType = {
+    job_name: string; 
+    company: string; 
+    first_date: string; 
+    last_date: string; 
+    description: string; 
+    link?: string; 
+    theme?: string; 
+}
+
+export interface PropsExperience {
+    experience: ExperienceType
+
+}

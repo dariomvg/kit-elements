@@ -1,0 +1,130 @@
+.section-experience {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.container-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.circle {
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.line {
+  width: 2px;
+  height: 100%;
+  background-color: #aaa;
+}
+
+.container-information {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.box-info {
+  display: grid;
+  gap: 3px;
+}
+
+.last {
+  width: 50%;
+}
+
+.job-name {
+  color: #fff;
+}
+
+.company {
+  font-weight: 500;
+  color: #fff;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d1d5db;
+}
+
+.description {
+  font-size: 16px;
+  color: #d1d5db;
+  padding-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #d1d5db;
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  transition: color 0.5s;
+  color: #fff;
+}
+
+.icon-link {
+  stroke: #fff;
+}
+
+/* Theme Dark */
+
+.dark .circle {
+  background-color: #101010;
+}
+
+.dark .line {
+  background-color: #303030;
+}
+.dark .company {
+  color: #000;
+}
+.dark .job-name {
+  color: #000;
+}
+
+.dark .dates {
+  color: #303030;
+}
+
+.dark .description {
+  color: #202020;
+}
+
+.dark .link {
+  color: #202020;
+  transition: color 0.5s;
+}
+
+.dark .link:hover {
+  color: #000;
+  transition: color 0.5s;
+}
+
+.dark .icon-link {
+  stroke: #202020;
+}
