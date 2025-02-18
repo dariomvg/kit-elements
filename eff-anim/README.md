@@ -2,7 +2,7 @@
 
 eff-anim es un componente donde le puedes pasar distintas animaciones para la vista usando el viewport
 
-![video demo](https://res.cloudinary.com/dijk5nuuk/image/upload/v1734721520/eff-anim.gif)
+![video demo](https://res.cloudinary.com/dijk5nuuk/image/upload/v1739903127/eff-anim-video.gif)
 
 ### Instalacion
 
