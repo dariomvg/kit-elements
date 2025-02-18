@@ -2,7 +2,7 @@
 
 type-writer-words es un componente que simula el efecto de maquina de escribir 
 
-![video demo](https://res.cloudinary.com/dijk5nuuk/image/upload/v1735237893/type-writer-2.gif)
+![video demo](https://res.cloudinary.com/dijk5nuuk/image/upload/v1739903127/type-writer-video.gif)
 
 ### Instalacion
 
