@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
   position: relative;
   padding-bottom: 20px;
 }
@@ -43,7 +42,8 @@
 }
 
 .box-info {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3px;
 }
 
@@ -127,4 +127,14 @@
 
 .dark .icon-link {
   stroke: #202020;
+}
+
+@media (max-width: 425px) {
+  .container-information {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .last {
+    width: 100%;
+  }
 }
