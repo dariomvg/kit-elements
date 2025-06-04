@@ -1,4 +1,5 @@
 # kit-components from [Kit-elements]
+
 kit-components es un catalogo de componentes de UI, funcionales y personalizables
 
 ![Video demo](https://res.cloudinary.com/dijk5nuuk/image/upload/v1739903887/kit-components-video.gif)
@@ -18,6 +19,10 @@ Instala con npm:
 - Loader
 - Modal
 - Toggle
+- Experience
+- BoxLinks
+- Chat
+- Message
 
 ### Uso
 
@@ -141,6 +146,63 @@ function App() {
 | description | Descrición de tu función dentro de la empresa |
 | link        | Puedes agregar un link si quieres             |
 | theme       | Por defecto es light, puedes agregar dark     |
+
+BoxLinks
+
+```js
+import { BoxLinks } from "kit-components-ui";
+
+function App() {
+  const links = [
+    { id: 0, link: "https://www.facebook.com", name: "Facebook" },
+    { id: 1, link: "https://github.com", name: "Github" },
+    { id: 2, link: "https://astro.build", name: "Astro" },
+    { id: 3, link: "https://x.com", name: "X - Twitter" },
+  ];
+
+  return <BoxLinks links={links} title="" theme="" width="" />;
+}
+```
+
+| Props | Uso                                                                                            |
+| ----- | ---------------------------------------------------------------------------------------------- |
+| links | Array de objetos con id(única), link(url) y name(Nombre del sitio)                             |
+| title | Nombre principal del contenido                                                                 |
+| theme | Tema dark o light, según tu proyecto, por defecto está en dark                                 |
+| width | Largo del contenedor, por defecto el 100% del contendor padre, colocar los px, porcentaje, etc |
+
+Chat
+
+```js
+import { Chat } from "kit-components-ui";
+
+function App() {
+  return <Chat theme="" width="" height=""></Chat>;
+}
+```
+
+| Props    | Uso                                                                |
+| -------- | ------------------------------------------------------------------ |
+| children | Recibe los mensajes dentro                                         |
+| theme    | Tema dark o light. Por defecto dark                                |
+| width    | Largo adaptable. Por defecto 100%, agregar los px, porcentaje, etc |
+| height   | Ancho adaptable. Por defecto auto, agregar los px, porcentaje, etc |
+
+Message
+
+```js
+import { Message } from "kit-components-ui";
+
+function App() {
+  return <Message theme="" content="" username="" />;
+}
+```
+
+| Props    | Uso                                             |
+| -------- | ----------------------------------------------- |
+| content  | Contenido del mensaje a mostrar                 |
+| username | Nombre del usuario emisor del mensaje. Opcional |
+| theme    | Tema dark o light. Por defecto dark             |
 
 # Probar
 

@@ -64,4 +64,3 @@ Paquete de type writer words:
 [npm kit-components]: <https://www.npmjs.com/package/kit-components-ui>
 [npm type-writer-words]: <https://www.npmjs.com/package/type-writer-words>
 
-

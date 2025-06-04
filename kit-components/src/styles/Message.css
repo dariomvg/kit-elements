@@ -1,0 +1,39 @@
+.message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #202020;
+  border-radius: 5px;
+  padding: 8px;
+}
+.max-message {
+  height: 200px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #202020;
+
+}
+.max-message::-webkit-scrollbar-track {
+    background: #101010;
+}
+.username {
+  color: #fff;
+}
+
+.content-message {
+  color: #fff;
+  font-size: 16px;
+}
+
+.message-light {
+  background-color: #aaa;
+}
+
+.message-light .username {
+  color: #101010;
+}
+
+.message-light .content-message {
+  color: #161616;
+}
