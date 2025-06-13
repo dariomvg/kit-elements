@@ -32,6 +32,6 @@ export const getCompleteDate = (format: string = "complete"): string => {
 
 export const getLocalHour = (): string => {
   const date = new Date();
-  return `${date.getHours()}:${date.getMinutes()}`;
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  return `${date.getHours()}:${minutes}`;
 };
-
