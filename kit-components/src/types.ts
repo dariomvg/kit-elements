@@ -71,4 +71,21 @@ export interface MessageTypes {
   username?: string;
 }
 
+export interface OptionChatAssistent{
+  id: number;
+  option: string;
+  content: string;
+  path: string;
+}
+
+export interface PropsChatAssistent {
+  options: OptionChatAssistent[];
+  messageMain?: string; 
+  theme?: "dark" | "light";
+  width?: string,
+  height?: string
+}
+
+
+
 

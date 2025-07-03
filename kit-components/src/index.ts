@@ -7,5 +7,6 @@ import { Experience } from "./components/Experience";
 import { BoxLinks } from "./components/BoxLinks";
 import { Chat } from "./components/Chat";
 import { Message } from "./components/Message";
+import { ChatAssistent } from "./components/ChatAssistent";
 
-export {CarrouselImages, Collapse, Loader, Toggle, Modal, Experience, BoxLinks, Chat, Message}; 
+export {CarrouselImages, Collapse, Loader, Toggle, Modal, Experience, BoxLinks, Chat, Message, ChatAssistent}; 
