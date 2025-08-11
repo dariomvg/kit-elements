@@ -2,12 +2,17 @@
   "name": "format-all-dates",
   "private": false,
   "author": "Dariomvg",
-  "description": "Conjunto de funciones para obtener la fecha",
-  "version": "1.0.5",
+  "description": "Conjunto de funciones para obtener distintos formatos de fechas y horas",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "license": "ISC",
+  "homepage": "https://github.com/dariomvg/kit-elements/tree/master/format-dates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariomvg/kit-elements/tree/master/format-dates"
+  },
   "keywords": [
     "react",
     "typescript",
@@ -21,6 +26,10 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "preview": "vite preview",
     "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1",
+    "react-dom": ">=18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
@@ -39,8 +48,6 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
     "jsdom": "^25.0.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "rollup": "^4.27.3",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",

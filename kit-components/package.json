@@ -3,16 +3,20 @@
   "private": false,
   "author": "Dariomvg",
   "description": "Conjunto de componentes UI funcionales y personalizables",
-  "version": "1.0.10",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "license": "ISC",
+  "homepage": "https://github.com/dariomvg/kit-elements/tree/master/kit-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariomvg/kit-elements/tree/master/kit-components"
+  },  
   "keywords": [
-    "react",
-    "typescript",
-    "componentsUI",
-    "kit-components",
+    "componentes ui",
+    "funcionales",
+    "personalizables",
     "kit-elements"
   ],
   "scripts": {
@@ -22,6 +26,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1",
+    "react-dom": ">=18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
@@ -41,8 +49,6 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
     "jsdom": "^25.0.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "rollup": "^4.27.3",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
