@@ -1,43 +1,47 @@
 import { PropsExperience } from "../types";
 import "../styles/Experience.css";
 
-export const Experience = ({ experience }: PropsExperience): JSX.Element => {
+export const Experience = ({ experience }: PropsExperience) => {
   const { company, description, first_date, job_name, last_date, link, theme } =
     experience;
 
   return (
-    <section className={`section-experience ${theme ? theme : ""}`}>
-      <div className="container-line">
-        <div className="circle"></div>
-        <div className="line"></div>
+    <section className={`section-experience ${theme ? "theme-dark-experience" : ""}`}>
+      <div className="container-line-experience">
+        <div className="circle-experience"></div>
+        <div className="line-experience"></div>
       </div>
-      <section className="container-information">
-        <div className="box-info">
-          <h2 className="job-name">{job_name}</h2>
-          <p className="company">{company}</p>
-          <p className="dates">
+      <section className="container-information-experience">
+        <div className="box-info-experience">
+          <h2 className="job-name-experience">{job_name}</h2>
+          <p className="company-experience">{company}</p>
+          <div className="dates-experience">
             <p>{first_date}</p>
             <b>-</b>
             <p>{last_date}</p>
-          </p>
+          </div>
         </div>
-        <div className="box-info last">
-          <p className="description">{description}</p>
+        <div className="box-info-experience last-experience">
+          <p className="description-experience">{description}</p>
           {link && (
-            <a href={link} target="_blank" rel="noreferrer" className="link">
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="link-experience">
               Visitar
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
-                className="icon-link"
+                className="icon-link-experience"
                 width={16}
                 height={16}>
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="m8.25 4.5 7.5 7.5-7.5 7.5"
                 />
               </svg>

@@ -10,7 +10,9 @@ export const CarrouselImages = ({
   time = 5000,
   width,
   height,
-}: PropsCarrousel): JSX.Element => {
+  widthImage = "100%",
+  heightImage = "100%",
+}: PropsCarrousel) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNext = () => {
@@ -38,8 +40,8 @@ export const CarrouselImages = ({
         src={images[currentIndex].src}
         alt="image slide"
         loading="lazy"
-        width="100%"
-        height="100%"
+        width={widthImage}
+        height={heightImage}
       />
       <div className="container-btn">
         <img

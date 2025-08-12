@@ -34,7 +34,7 @@ Instala con npm:
 | Prop | Valor | Por defecto|
 | ------ | ------ |------|
 | words | array de strings |[] Array|
-| cursor | "default" y "line" |"default" string|
+| cursor | "default" o "line" |"default" string|
 | typingSpeed | tiempo de escritura|100 number|
 | deletingSpeed |  tiempo de eliminación | 100 number|
 | wordPause | tiempo de pausa para empezar a eliminar |2000 number|

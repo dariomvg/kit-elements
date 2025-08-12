@@ -6,7 +6,7 @@ export const ContainerViews = ({
   children,
   threshold = 0.9,
   effect = "",
-}: ContainerViewsProps): JSX.Element => {
+}: ContainerViewsProps) => {
   const elementRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 

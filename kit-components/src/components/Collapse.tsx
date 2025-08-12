@@ -7,7 +7,7 @@ export const Collapse = ({
   title,
   bg="dark",
   width="100%",
-}: PropsCollapse): JSX.Element => {
+}: PropsCollapse) => {
   const [active, setActive] = useState(false);
   const handleContent = () => setActive(!active);
 

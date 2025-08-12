@@ -8,7 +8,7 @@
   padding-bottom: 20px;
 }
 
-.container-line {
+.container-line-experience {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,20 +19,20 @@
   height: 100%;
 }
 
-.circle {
+.circle-experience {
   width: 14px;
   height: 14px;
   background-color: #fff;
   border-radius: 50%;
 }
 
-.line {
+.line-experience {
   width: 2px;
   height: 100%;
   background-color: #aaa;
 }
 
-.container-information {
+.container-information-experience {
   width: 100%;
   height: 100%;
   display: flex;
@@ -41,39 +41,39 @@
   padding-left: 20px;
 }
 
-.box-info {
+.box-info-experience {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 
-.last {
+.last-experience {
   width: 50%;
 }
 
-.job-name {
+.job-name-experience {
   color: #fff;
 }
 
-.company {
+.company-experience {
   font-weight: 500;
   color: #fff;
 }
 
-.dates {
+.dates-experience {
   display: flex;
   align-items: center;
   gap: 8px;
   color: #d1d5db;
 }
 
-.description {
+.description-experience {
   font-size: 16px;
   color: #d1d5db;
   padding-bottom: 10px;
 }
 
-.link {
+.link-experience {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -82,59 +82,59 @@
   align-items: center;
 }
 
-.link:hover {
+.link-experience:hover {
   transition: color 0.5s;
   color: #fff;
 }
 
-.icon-link {
+.icon-link-experience {
   stroke: #fff;
 }
 
-/* Theme Dark */
+/* Theme theme-dark-experience */
 
-.dark .circle {
+.theme-dark-experience .circle-experience {
   background-color: #101010;
 }
 
-.dark .line {
+.theme-dark-experience .line-experience {
   background-color: #303030;
 }
-.dark .company {
+.theme-dark-experience .company-experience {
   color: #000;
 }
-.dark .job-name {
+.theme-dark-experience .job-name-experience {
   color: #000;
 }
 
-.dark .dates {
+.theme-dark-experience .dates-experience {
   color: #303030;
 }
 
-.dark .description {
+.theme-dark-experience .description-experience {
   color: #202020;
 }
 
-.dark .link {
+.theme-dark-experience .link-experience {
   color: #202020;
   transition: color 0.5s;
 }
 
-.dark .link:hover {
+.theme-dark-experience .link-experience:hover {
   color: #000;
   transition: color 0.5s;
 }
 
-.dark .icon-link {
+.theme-dark-experience .icon-link-experience {
   stroke: #202020;
 }
 
 @media (max-width: 425px) {
-  .container-information {
+  .container-information-experience {
     flex-direction: column;
     gap: 10px;
   }
-  .last {
+  .last-experience {
     width: 100%;
   }
 }

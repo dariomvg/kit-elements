@@ -20,6 +20,8 @@ export interface PropsCarrousel {
   time?: number;
   width?: string;
   height?: string;
+  widthImage?: string;
+  heightImage?: string;
 }
 
 export interface PropsModal {
@@ -38,7 +40,7 @@ type ExperienceType = {
   last_date: string;
   description: string;
   link?: string;
-  theme?: string;
+  theme?: string | null;
 };
 
 export interface PropsExperience {
@@ -55,7 +57,7 @@ export interface BoxLinksTypes {
   links: Link[];
   title: string;
   theme?: "dark" | "light";
-  width?: string 
+  width?: string;
 }
 
 export interface ChatTypes {
@@ -67,11 +69,11 @@ export interface ChatTypes {
 
 export interface MessageTypes {
   content: string;
-  theme?: "dark" | "light"; 
+  theme?: "dark" | "light";
   username?: string;
 }
 
-export interface OptionChatAssistent{
+export interface OptionChatAssistent {
   id: number;
   option: string;
   content: string;
@@ -80,12 +82,8 @@ export interface OptionChatAssistent{
 
 export interface PropsChatAssistent {
   options: OptionChatAssistent[];
-  messageMain?: string; 
+  messageMain?: string;
   theme?: "dark" | "light";
-  width?: string,
-  height?: string
+  width?: string;
+  height?: string;
 }
-
-
-
-

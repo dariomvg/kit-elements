@@ -1,6 +1,6 @@
 export interface TypeWriterProps {
   words: string[];
-  cursor?: string;
+  cursor?:"default" | "line";
   typingSpeed?: number;
   deletingSpeed?: number;
   wordPause?: number;

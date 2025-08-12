@@ -34,7 +34,7 @@ import { CarrouselImages } from "kit-components-ui";
 function App() {
   const arrImages = [img1, img2, img3, ...]
   return (
-    <ContainerViews images={arrImages} width="100%"  />
+    <CarrouselImages images={arrImages} width="100%"  />
   );
 };
 ```
@@ -46,6 +46,8 @@ function App() {
 | time   | tiempo de muestra de cada imagen  | number                |
 | width  | ancho del componente              | string, recibe px o % |
 | height | alto del componente               | string, recibe px o % |
+| widthImage | alto de la imagen, por defecto 100%              | string, recibe px o % |
+| heightImage | alto de la imagen, por defecto 100%              | string, recibe px o % |
 
 Collapse
 

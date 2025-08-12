@@ -11,7 +11,7 @@ export default function TypeWriter({
   wordPause = 2000, 
   deletePause = 2000, 
   color = "#000"
-}: TypeWriterProps): JSX.Element {
+}: TypeWriterProps) {
 
   const [displayedText, setDisplayedText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
