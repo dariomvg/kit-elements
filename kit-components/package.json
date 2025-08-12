@@ -3,7 +3,7 @@
   "private": false,
   "author": "Dariomvg",
   "description": "Conjunto de componentes UI funcionales y personalizables",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
