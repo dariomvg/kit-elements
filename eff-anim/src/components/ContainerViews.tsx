@@ -29,7 +29,7 @@ export const ContainerViews = ({
   }, [threshold]);
 
   return (
-    <section ref={elementRef} className={`content ${effect} ${isVisible ? "animation" : ""}`}>
+    <section ref={elementRef} className={`container-views-eff-anim ${effect} ${isVisible ? "animation" : ""}`}>
       {children}
     </section>
   );
